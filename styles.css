@@ -1,31 +1,62 @@
 body {
     background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/old-wall.png");
     color: greenyellow;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     text-align: center;
-}
-
-nav {
-    background-color: darkblue;
-    padding: 25px;
     margin-right: 10%;
     margin-left: 10%;
 }
 
+nav {
+    /* display: flex; */
+    background-color: darkblue;
+    padding: 25px;
+}
+
 a {
     text-decoration: none;
-    background-color: black;
 }
 
 a:hover {color: white;}
 
 .nav_links {
     padding: 10px;
-    border-radius: 20%;
+    border-radius: 15%;
     color: lime;
+    background-color: black;
 }
 
 .inline_links {
     text-decoration: underline;
     color: greenyellow;
+}
+
+.left_justified {
+    text-align: left;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#fine_print {
+    font-size: small;
+}
+
+table {
+    border-style: solid;
+    border: 2px;
+    border-color: white;
+}
+
+td {
+    vertical-align: center;
+    text-align: left;
+    padding: 5px;
 }
