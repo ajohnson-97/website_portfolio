@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 25px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    background-color: black;
+}
+
+a:hover {color: white;}
+
+.nav_links {
+    padding: 10px;
+    border-radius: 20%;
+    color: lime;
+}
+
+.inline_links {
+    text-decoration: underline;
+    color: greenyellow;
+}
